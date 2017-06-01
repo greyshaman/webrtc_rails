@@ -6,13 +6,13 @@
 
 CAPTURE_EVENT_FRONTEND = 'screen_capture_frontend'
 CAPTURE_EVENT_BACKEND = 'screen_capture_backend'
-PLUGIN_VERSION_NEEDED = '1.3.0'
+PLUGIN_VERSION_NEEDED = '1.3.2'
 CHECK_VERSION_TIMEOUT = 2000
 TRY_COUNT_LIMIT = 3
 PARTNER_CONNECTION_TIMEOUT = 10000
 
 screenshot_id = 0
-screenshot_callbacks = {} 
+screenshot_callbacks = {}
 
 
 window.addEventListener 'message', (event)->
